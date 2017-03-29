@@ -35,7 +35,7 @@ body
 }
 #work .work li
 { margin-top: 5px;
-  list-style-image: url(../image/Untitled-3.png);
+  list-style-image: url("../image/Untitled-3.png");
 }
 #work .work 
 {
@@ -55,7 +55,7 @@ body
 #school
 {
     margin-right: 50px;
-    list-style-image: url(/image/Untitled-4.png);
+    list-style-image: url("../image/Untitled-4.png");
 }
 
 #hobby{
@@ -70,7 +70,7 @@ body
 }
 #hobby .hobby
 {
-    list-style-image: url(../image/Untitled-5.png);
+    list-style-image: url("../image/Untitled-5.png");
 }
 #contact img  {
     height: 40px;
