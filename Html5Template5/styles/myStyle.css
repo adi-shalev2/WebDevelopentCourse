@@ -2,6 +2,13 @@ body
 {
     direction:rtl;
 }
+@font-face {
+  font-family: unset
+  src: url("dashMT.eot?") format("eot"),
+  url("dashMT.woff") format("woff"),
+  url("dashMT.ttf") format("truetype");
+}
+
 body
 {
     background-image: url("../image/RAF_5315.jpg");
@@ -12,7 +19,9 @@ body
     text-align: center;
     margin-top: 20px;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 45px;
+text-shadow: 1.5px 3px 15px #212121;
+ 
 }
 
 #start img
@@ -51,11 +60,13 @@ body
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 20px;
+
 }
 #school
 {
     margin-right: 50px;
     list-style-image: url("../image/Untitled-4.png");
+
 }
 
 #hobby{
@@ -81,4 +92,4 @@ body
     margin-right: 50px;
     margin-top: 30px;
 }
-
+ 
